@@ -39,5 +39,10 @@ This project addresses challenges in applying **k-means clustering** to biased d
 ## 🛠 Usage  
 ### Dependencies  
 - Python 3.8+  
-- Libraries: `numpy`, `pandas`, `scikit-learn`, `multiprocessing`  
+- Libraries: `numpy`, `pandas`, `scikit-learn`, `multiprocessing`
+
+---
+
+## 📄 License  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
