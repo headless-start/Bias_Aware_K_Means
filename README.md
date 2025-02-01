@@ -23,16 +23,16 @@ This project addresses challenges in applying **k-means clustering** to biased d
 ---
 
 ## 🔍 Findings  
-- **Greedy Clustering**:  
-  - Achieved target cluster sizes (1%, 10%, 25%) with τ=100.  
-  - **Runtime**: 43.19s | **Memory**: 1.03MB.  
-  - **Clustering Quality**: Silhouette Score (-0.0029), Intra-cluster distance (15,289.29).  
-- **Random Subsampling**:  
-  - **Runtime**: 37.14s | **Memory**: Negligible.  
-  - **Clustering Quality**: Silhouette Score (0.1127), Intra-cluster distance (12,397.45).  
-- **Conclusion**:  
-  - Subsampling outperformed in speed and clustering quality for this dataset.  
-  - Greedy clustering offers structured preprocessing for bias mitigation but requires tuning.  
+1. **Greedy Clustering**:  
+   - Achieved target cluster sizes (1%, 10%, 25%) with τ=100.  
+   - **Runtime**: 43.19s | **Memory**: 1.03MB.  
+   - **Clustering Quality**: Silhouette Score (-0.0029), Intra-cluster distance (15,289.29).  
+2. **Random Subsampling**:  
+   - **Runtime**: 37.14s | **Memory**: Negligible.  
+   - **Clustering Quality**: Silhouette Score (0.1127), Intra-cluster distance (12,397.45).  
+3. **Conclusion**:  
+   - Subsampling outperformed in speed and clustering quality for this dataset.  
+   - Greedy clustering offers structured preprocessing for bias mitigation but requires tuning.  
 
 ---
 
