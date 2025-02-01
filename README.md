@@ -3,7 +3,7 @@
 ## 📌 Project Overview  
 This project addresses challenges in applying **k-means clustering** to biased datasets by implementing a **parallelized greedy clustering algorithm** for preprocessing. The algorithm reduces dataset size by selecting representatives based on a tunable distance threshold (τ), enabling efficient clustering. A comparative analysis with **random subsampling** evaluates computational efficiency and clustering quality.
 
-**Dataset**: 118,000 data points with inherent biases (e.g., age, wealth).  
+**Dataset**: 118,821 data points with inherent biases (e.g., age, wealth).  
 **Goal**: Mitigate bias effects by preprocessing data into representative clusters (1%, 10%, 25% sizes) and compare methods.
 
 ---
