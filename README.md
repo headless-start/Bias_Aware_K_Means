@@ -1,4 +1,4 @@
-# Biased Dataset Clustering: Greedy Preprocessing & k-Means Integration
+# Biased Dataset Clustering: Greedy Preprocessing & k-Means Integration on Large Scale Data
 
 ## 📌 Project Overview  
 This project addresses challenges in applying **k-means clustering** to biased datasets by implementing a **parallelized greedy clustering algorithm** for preprocessing. The algorithm reduces dataset size by selecting representatives based on a tunable distance threshold (τ), enabling efficient clustering. A comparative analysis with **random subsampling** evaluates computational efficiency and clustering quality.
